@@ -1,0 +1,16 @@
+server:
+  port: 1111
+nacos:
+  config:
+        server-addr: 127.0.0.1:8848
+        namespace: 51382f2f-01b8-4aff-bfc0-ee79abe8385d
+seata:
+  tx-service-group: zjf-nacos-group
+  applicationId: base2020
+  service:
+    grouplist:
+      default: 172.24.62.40:8091
+    vgroup-mapping:
+      zjf-nacos-group: default
+    disable-global-transaction: false
+

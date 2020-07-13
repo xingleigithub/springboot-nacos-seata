@@ -1,0 +1,6 @@
+server:
+  port: 1111
+nacos:
+  config:
+    server-addr: 127.0.0.1:8848
+    namespace: 94e2aefe-f341-41f9-8e81-e2239e6c220e
